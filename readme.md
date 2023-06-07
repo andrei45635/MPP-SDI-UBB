@@ -16,16 +16,17 @@ functionalities:
    sample.
 4. **_Logout_**.
 
-### **_Notes:_**
-Task Tracker is a semester project which aims to provide users with a clear and robust way to organize tasks for a contest. It's written in Java and C#, making it possible to host a server in either Java or C# and also open clients in both languages.
-Both implementations share an SQLite database which holds records for all users, participants and tasks for a contest. 
-
 ### _**_Technologies used_**_:
-* Java 17
-* JavaFX 17
+* Java 17, JavaFX 17
 * C# 11
-* Windows Forms
 * Gradle
 * SQLite, JDBC
 * ApacheMQ
-* ReactJS + Vite
+* ReactJS, Vite
+
+
+
+
+### **_Notes:_**
+Task Tracker is a semester project which aims to provide users with a clear and robust way to organize tasks for a contest. It's written in Java and C#, making it possible to host a server in either Java or C# and also open clients in both languages.
+Both implementations share an SQLite database which holds records for all users, participants and tasks for a contest. 
