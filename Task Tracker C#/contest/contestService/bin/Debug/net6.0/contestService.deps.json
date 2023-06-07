@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "contestService/1.0.0": {
+        "dependencies": {
+          "contestDomain": "1.0.0"
+        },
+        "runtime": {
+          "contestService.dll": {}
+        }
+      },
+      "contestDomain/1.0.0": {
+        "runtime": {
+          "contestDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "contestService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "contestDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

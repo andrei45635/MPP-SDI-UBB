@@ -1,0 +1,12 @@
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\bin\Debug\net6.0\contestDomain.deps.json
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\bin\Debug\net6.0\contestDomain.dll
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\bin\Debug\net6.0\contestDomain.pdb
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\contestDomain.csproj.AssemblyReference.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\contestDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\contestDomain.AssemblyInfoInputs.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\contestDomain.AssemblyInfo.cs
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\contestDomain.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\contestDomain.dll
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\refint\contestDomain.dll
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\contestDomain.pdb
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestDomain\obj\Debug\net6.0\ref\contestDomain.dll

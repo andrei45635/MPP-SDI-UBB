@@ -1,0 +1,12 @@
+C:\Users\Andrei\Desktop\Facultate\Semestrul 4\MPP\mpp-proiect-csharp-andrei45635\contest\bin\Debug\contest.exe
+C:\Users\Andrei\Desktop\Facultate\Semestrul 4\MPP\mpp-proiect-csharp-andrei45635\contest\bin\Debug\contest.pdb
+C:\Users\Andrei\Desktop\Facultate\Semestrul 4\MPP\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.csproj.AssemblyReference.cache
+C:\Users\Andrei\Desktop\Facultate\Semestrul 4\MPP\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrei\Desktop\Facultate\Semestrul 4\MPP\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Desktop\Facultate\Semestrul 4\MPP\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.exe
+C:\Users\Andrei\Desktop\Facultate\Semestrul 4\MPP\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.pdb
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.csproj.AssemblyReference.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.csproj.SuggestedBindingRedirects.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.exe
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\obj\Debug\contest.pdb

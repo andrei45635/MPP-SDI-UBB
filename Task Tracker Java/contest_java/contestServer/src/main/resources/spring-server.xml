@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <util:properties id="jdbcProps" location="classpath:contestServer.properties"/>
+
+    <bean id="userDBRepository" class="com.example.repo.users.UserDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="participantsDBRepository" class="com.example.repo.participants.ParticipantsDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="participantsTasksDBRepository" class="com.example.repo.participantstasks.ParticipantsTasksDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="taskDBRepository" class="com.example.repo.tasks.TaskDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory"/>
+
+    <bean id="topic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="ContestTopic"/>
+    </bean>
+
+    <bean id="converter" class="org.springframework.jms.support.converter.MappingJackson2MessageConverter">
+        <property name="targetType" value="TEXT"/>
+        <property name="typeIdPropertyName" value="_notification"/>
+    </bean>
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <constructor-arg ref="connectionFactory"/>
+        <property name="defaultDestination" ref="topic"/>
+        <property name="messageConverter" ref="converter"/>
+    </bean>
+
+    <bean id="notificationService" class="com.example.service.NotificationService">
+        <constructor-arg ref="jmsTemplate"/>
+    </bean>
+
+    <bean id="contestServer" class="com.example.service.ContestServiceAMS">
+        <constructor-arg ref="userDBRepository"/>
+        <constructor-arg ref="participantsDBRepository"/>
+        <constructor-arg ref="participantsTasksDBRepository"/>
+        <constructor-arg ref="taskDBRepository"/>
+        <constructor-arg ref="notificationService"/>
+    </bean>
+
+    <bean id="contestTCPServer" class="com.example.utils.ContestRpcAMSConcurrentServer">
+        <constructor-arg value="#{jdbcProps.getProperty('contest.server.port')}"/>
+        <constructor-arg ref="contestServer"/>
+    </bean>
+</beans>

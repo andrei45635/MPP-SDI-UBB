@@ -1,0 +1,15 @@
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\bin\Debug\net6.0\contestService.deps.json
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\bin\Debug\net6.0\contestService.dll
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\bin\Debug\net6.0\contestService.pdb
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\bin\Debug\net6.0\contestDomain.dll
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\bin\Debug\net6.0\contestDomain.pdb
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.csproj.AssemblyReference.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.AssemblyInfoInputs.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.AssemblyInfo.cs
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.csproj.CopyComplete
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.dll
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\refint\contestService.dll
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\contestService.pdb
+C:\Users\GIGABYTE\RiderProjects\mpp-proiect-csharp-andrei45635\contest\contestService\obj\Debug\net6.0\ref\contestService.dll
